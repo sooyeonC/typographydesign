@@ -8,6 +8,7 @@ main {
   background: #000000;
 }
 
+
 @font-face {
   font-family: 'AppleSDGothicNeo';
   src: url('AppleSDGothicNeo.ttf') format('truetype');
@@ -15,9 +16,9 @@ main {
 }
 
 @font-face {
-  font-family: "PEONG";
-  src: url("submissions/peong.ttf") format("truetype-variations");
-  font-weight: 0 130;
+  font-family: "HEULG";
+  src: url("submissions/heulg.ttf") format("truetype-variations");
+  font-weight: 0 300;
   font-style: normal;
 }
 
@@ -28,6 +29,7 @@ main {
   grid-template-columns: 10vw 80vw 10vw; /* 각 행(가로줄)의 길이 */
   grid-template-rows: 7vh 86vh 7vh; /* 각 열(세로줄)의 길이 *//* 자식요소간의 간격 */
   font-family: "Noto Sans CJK KR";
+  color: rgba(1, 192, 91, 1);
 }
 .box-item {
   box-sizing: border-box;
@@ -42,12 +44,25 @@ main {
 
 .middle{
   line-height: 86vh;
+  font-size: 40pt;
+  a:link {color: rgba(1, 192, 91, 1); text-decoration:none;}
+  a:visited {color: rgba(1, 192, 91, 1); text-decoration:none;}
 }
 
-.header{
-  background-color: rgba(1, 192, 91, 1);
+.button:hover{
+  font-weight: bold;
 }
 
+#home{
+    a:link {color: rgba(1, 192, 91, 1); text-decoration:none;}
+  a:visited {color: rgba(1, 192, 91, 1); text-decoration:none;}
+}
+
+#home:hover{
+  font-weight: bold;
+    a:link {color: rgba(1, 192, 91, 1); text-decoration:none;}
+  a:visited {color: rgba(1, 192, 91, 1); text-decoration:none;}
+}
 .footer{
 
   font-weight: bold;
@@ -60,13 +75,14 @@ main {
         font-variation-settings: "wght" 0;
       }
       to {
-        font-variation-settings: "wght" 130;
+        font-variation-settings: "wght" 300;
       }
     }
 
 #VF {
-  font-family: 'PEONG';
-  Font-size: 380pt;
+  color: black;
+  font-family: 'HEULG';
+  Font-size: 450pt;
   font-variation-settings: "wght" 0;
   transition: font-variation-settings 0.3s ease;
   animation-name: peong-animation;
