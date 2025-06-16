@@ -10,7 +10,7 @@ main {
 
 @font-face {
   font-family: 'AppleSDGothicNeo';
-  src: url('AppleSDGothicNeo.ttc') format('truetype');
+  src: url('AppleSDGothicNeo.ttf') format('truetype');
   font-style: normal;
 }
 
@@ -44,6 +44,17 @@ main {
   line-height: 86vh;
 }
 
+.header{
+  background-color: rgba(1, 192, 91, 1);
+}
+
+.footer{
+
+  font-weight: bold;
+  font-size: 10pt;
+
+}
+
 @keyframes peong-animation {
       from {
         font-variation-settings: "wght" 0;
@@ -55,7 +66,7 @@ main {
 
 #VF {
   font-family: 'PEONG';
-  Font-size: 360pt;
+  Font-size: 380pt;
   font-variation-settings: "wght" 0;
   transition: font-variation-settings 0.3s ease;
   animation-name: peong-animation;
