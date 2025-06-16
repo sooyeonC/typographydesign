@@ -21,8 +21,7 @@ main {
   text-align: center;
 }
 @font-face {
-    font-family: '폰트명';
+    font-family: 'arial';
     src: <source> [,<source>]*;
-    font-weight: 값;
-    font-style: 값;
+    font-weight: bold;
 }
