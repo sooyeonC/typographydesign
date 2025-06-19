@@ -1,0 +1,111 @@
+@font-face {
+
+	font-family: SM3KGothic;
+	src: url("SM3견출고딕-Regular.otf") format("opentype");
+	font-style: normal;
+}
+
+html{
+	box-sizing: border-box;
+}
+
+
+body{
+	display: flex;
+	flex-direction: row;
+	background: white;
+	a:link {color: rgba(135, 135, 135, 1); text-decoration:none;}
+	a:visited {color: rgba(135, 135, 135, 1); text-decoration:none;}
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
+	font-family: 'SM3KGothic';
+	color: rgba(135, 135, 135, 1);
+	width: 240px;
+	position: fixed;
+	top:36px;
+	left:36px;
+}
+
+.dong{
+	/*background: blueviolet;*/
+	width: 180px;
+	height:126px;
+	border: 1px solid black;
+	margin: 10px;
+	text-align: center;
+	line-height: 180px;
+		position: absolute;
+
+}
+
+
+#JL{
+
+	background: red;
+	top: 78px;
+	left: 372px;
+
+}
+
+#SB{
+	position: absolute;
+	top: 178;
+	left: 853;
+
+}
+
+#main{
+	position: relative;
+	top: 0px;
+	left: 240px;
+	width: calc(100vw - 276px);
+	border-left: 1px dashed;
+}
+
+.featurebox{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.features{
+	box-sizing: content-box;
+	font-size: 12pt;
+	border: 1px solid black;
+	border-radius: 16px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#title{
+	font-size: 30pt;
+	line-height: 130%;
+}
+
+#title:hover{
+	color: black;
+	a:hover{color:black};
+
+}
+
+#about{
+	width: 64px;
+	position: fixed;
+	bottom:40px;
+	left:36px;
+}
+
+#one{
+	width: 102px;
+}
+
+#two{
+	width: 102px;
+}
+
+#three{
+	width: 128px;
+}
