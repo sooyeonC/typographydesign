@@ -18,6 +18,18 @@ body{
 	a:visited {color: rgba(135, 135, 135, 1); text-decoration:none;}
 }
 
+
+img {
+	display: block;
+	width:180 px;
+	height:127px;
+}
+
+.portrait img{
+	width:127 px;
+	height:180px;
+}
+
 .nav{
 	display: flex;
 	flex-direction: column;
@@ -32,28 +44,115 @@ body{
 .dong{
 	/*background: blueviolet;*/
 	width: 180px;
-	height:126px;
+	height:127px;
 	border: 1px solid black;
 	margin: 10px;
 	text-align: center;
-	line-height: 180px;
-		position: absolute;
+	position: absolute;
 
 }
 
 
 #JL{
-
-	background: red;
-	top: 78px;
-	left: 372px;
+	top: 216px;
+	left: 150px;
 
 }
 
 #SB{
 	position: absolute;
-	top: 178;
-	left: 853;
+	top: 357px;
+	left: 37px;
+
+}
+
+#GL{
+	position: absolute;
+	top: 112px;
+	left: 461px;
+
+}
+
+#DA{
+	position: absolute;
+	top: 258px;
+	left: 351px;
+
+}
+
+#JA{
+	position: absolute;
+	top: 258px;
+	left: 551px;
+
+}
+
+
+
+.portrait {
+
+	height: 180px;
+	width:127px;
+}
+#AA{
+	position: absolute;
+	top: 407px;
+	left: 586px;
+
+}
+
+#DS{
+	position: absolute;
+	top: 406px;
+	left: 440px;
+}
+
+#DSM{
+	position: absolute;
+	top: 407px;
+	left: 234px;
+
+}
+
+#SS{
+	position: absolute;
+	top: 553px;
+	left: 234px;
+
+}
+
+#BM{
+	position: absolute;
+	top: 608px;
+	left: 461px;
+
+}
+
+#SWK{
+	position: absolute;
+	top: 260px;
+	left: 842px;
+
+}
+
+#HWK{
+	position: absolute;
+	top: 407px;
+	left: 735px;
+
+}
+
+#JW{
+	position: absolute;
+	top: 239px;
+	left: 1047px;
+
+}
+
+#SK{
+	position: absolute;
+	top: 406px;
+	left: 939px;
 
 }
 
@@ -81,7 +180,7 @@ body{
 }
 
 #title{
-	font-size: 30pt;
+	font-size: 28pt;
 	line-height: 130%;
 }
 
@@ -96,6 +195,11 @@ body{
 	position: fixed;
 	bottom:40px;
 	left:36px;
+}
+
+#about:hover{
+	background: gray;
+	color: white;
 }
 
 #one{
